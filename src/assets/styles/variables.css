@@ -1,0 +1,122 @@
+/**
+ * CSS变量定义 — 全局主题色、间距、字体
+ * Retrô / Pixel UI 风格（暖色大地系 + 实心偏移阴影）
+ * 桌面端布局（侧边栏 + 顶栏 + 主内容）
+ */
+
+:root {
+  /* ===== 主色调（温暖大地系 — 像素风浅色方案）===== */
+  --color-primary: #D4875A;
+  --color-primary-light: #E8B898;
+  --color-primary-dark: #B8653A;
+  --color-primary-50: #FDF6F0;
+  --color-primary-100: #FBE8D8;
+  --color-primary-200: #F5CDB0;
+  --color-primary-500: #D4875A;
+  --color-primary-600: #C47A50;
+  --color-primary-700: #B8653A;
+
+  /* ===== 强调色（暖橙）===== */
+  --color-accent: #E8834A;
+  --color-accent-light: #F0A078;
+  --color-accent-dark: #C55D2A;
+
+  /* ===== 功能色 ===== */
+  --color-success: #5B8C5A;
+  --color-warning: #E0A030;
+  --color-danger: #D14B4B;
+  --color-info: #6B7B8D;
+
+  /* ===== 过期状态色 ===== */
+  --color-expired: #D14B4B;
+  --color-expiring: #E0A030;
+  --color-fresh: #5B8C5A;
+
+  /* ===== 文字色 ===== */
+  --color-text-primary: #2D221C;
+  --color-text-regular: #4A3F38;
+  --color-text-secondary: #6B5D55;
+  --color-text-placeholder: #9B8D85;
+
+  /* ===== 边框 ===== */
+  --color-border: #C4B8AE;
+  --color-border-light: #DDD4CA;
+  --color-border-lighter: #EDE6DE;
+
+  /* ===== 背景 ===== */
+  --color-bg: #FDF9F5;
+  --color-bg-white: #FFFFFF;
+  --color-bg-overlay: rgba(45, 34, 28, 0.4);
+
+  /* ===== 间距（8px 倍数）===== */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+
+  /* ===== 圆角（Retrô UI 风格 — 全部 0）===== */
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-round: 0px;
+
+  /* ===== 字体（Minecraft 汉字/数字/字母 + 方舟像素体 符号）===== */
+  --font-family: 'Minecraft', 'Ark Pixel', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --el-font-family: var(--font-family);
+
+  /* ===== 像素字体 ===== */
+  --font-family-pixel: 'Minecraft', 'Ark Pixel', var(--font-family);
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ===== 阴影 ===== */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+
+  /* ===== 像素风专用阴影（实心偏移，无模糊 — Retrô UI 风格）===== */
+  --pixel-shadow-sm: 3px 3px 0 0 rgba(107, 93, 85, 0.50);
+  --pixel-shadow-md: 5px 5px 0 0 rgba(107, 93, 85, 0.55);
+  --pixel-shadow-lg: 7px 7px 0 0 rgba(107, 93, 85, 0.50);
+  --pixel-shadow-button: 4px 4px 0 0 rgba(45, 34, 28, 0.55);
+  --pixel-shadow-button-hover: 2px 2px 0 0 rgba(45, 34, 28, 0.55);
+  --pixel-border: #1A1817;
+
+  /* ===== 玻璃态效果（普通）===== */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-blur: 20px;
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+
+  /* ===== 布局（桌面端：侧边栏 + 顶栏 + 主内容）===== */
+  --sidebar-width: 240px;
+  --navbar-height: 64px;
+  --content-max-width: 1280px;
+  --content-padding-x: 32px;
+  --content-padding-y: 24px;
+
+  /* ===== 动画 ===== */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
