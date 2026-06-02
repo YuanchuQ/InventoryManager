@@ -1,0 +1,30 @@
+{
+  "goods": [
+    { "id": "1",  "categoryId": "2", "name": "鸡蛋",   "quantity": 12, "unit": "个", "spec": "土鸡蛋·盒装",         "expiryDate": "2026-06-08", "minQuantity": 5, "price": 15,   "storageLocation": "冰箱门格",   "note": "",            "createdAt": "2026-05-28" },
+    { "id": "2",  "categoryId": "4", "name": "牛奶",   "quantity": 2,  "unit": "瓶", "spec": "纯牛奶·250ml",        "expiryDate": "2026-06-03", "minQuantity": 3, "price": 8,    "storageLocation": "冰箱上层",   "note": "",            "createdAt": "2026-05-25" },
+    { "id": "3",  "categoryId": "1", "name": "西红柿", "quantity": 3,  "unit": "个", "spec": "新鲜散装",            "expiryDate": "2026-06-05", "minQuantity": 2, "price": 3,    "storageLocation": "冰箱冷藏",   "note": "",            "createdAt": "2026-05-30" },
+    { "id": "4",  "categoryId": "2", "name": "猪肉",   "quantity": 1,  "unit": "斤", "spec": "前腿肉",              "expiryDate": "2026-06-02", "minQuantity": 2, "price": 25,   "storageLocation": "冰箱冷冻",   "note": "",            "createdAt": "2026-05-29" },
+    { "id": "5",  "categoryId": "1", "name": "白菜",   "quantity": 2,  "unit": "斤", "spec": "本地大白菜",          "expiryDate": "2026-06-10", "minQuantity": 1, "price": 2,    "storageLocation": "橱柜",       "note": "",            "createdAt": "2026-05-31" },
+    { "id": "6",  "categoryId": "3", "name": "苹果",   "quantity": 5,  "unit": "个", "spec": "红富士·中果",         "expiryDate": "2026-06-09", "minQuantity": 3, "price": 5,    "storageLocation": "水果篮",     "note": "",            "createdAt": "2026-05-28" },
+    { "id": "7",  "categoryId": "3", "name": "香蕉",   "quantity": 4,  "unit": "个", "spec": "进口香蕉",            "expiryDate": "2026-06-04", "minQuantity": 2, "price": 2,    "storageLocation": "水果篮",     "note": "",            "createdAt": "2026-05-31" },
+    { "id": "8",  "categoryId": "5", "name": "洗衣液", "quantity": 1,  "unit": "瓶", "spec": "3L·薰衣草香",         "expiryDate": "2027-05-01", "minQuantity": 2, "price": 30,   "storageLocation": "卫生间柜子", "note": "",            "createdAt": "2026-05-10" },
+    { "id": "9",  "categoryId": "5", "name": "纸巾",   "quantity": 5,  "unit": "包", "spec": "抽纸·100抽",          "expiryDate": "2028-01-01", "minQuantity": 3, "price": 10,   "storageLocation": "储物间",     "note": "",            "createdAt": "2026-05-15" },
+    { "id": "10", "categoryId": "4", "name": "可乐",   "quantity": 8,  "unit": "瓶", "spec": "330ml·罐装",          "expiryDate": "2026-09-15", "minQuantity": 4, "price": 3,    "storageLocation": "冰箱门格",   "note": "",            "createdAt": "2026-05-20" },
+    { "id": "11", "categoryId": "6", "name": "感冒药", "quantity": 1,  "unit": "盒", "spec": "12粒/盒",             "expiryDate": "2027-03-10", "minQuantity": 1, "price": 20,   "storageLocation": "药箱",       "note": "早晚各一粒",  "createdAt": "2026-04-01" },
+    { "id": "12", "categoryId": "6", "name": "创可贴", "quantity": 10, "unit": "片", "spec": "防水型",              "expiryDate": "2027-12-31", "minQuantity": 5, "price": 0.5,  "storageLocation": "药箱",       "note": "",            "createdAt": "2026-03-15" },
+    { "id": "13", "categoryId": "1", "name": "土豆",   "quantity": 4,  "unit": "个", "spec": "黄心土豆",            "expiryDate": "2026-06-15", "minQuantity": 2, "price": 2,    "storageLocation": "橱柜",       "note": "",            "createdAt": "2026-05-30" },
+    { "id": "14", "categoryId": "7", "name": "酱油",   "quantity": 1,  "unit": "瓶", "spec": "生抽·500ml",          "expiryDate": "2026-12-01", "minQuantity": 1, "price": 12,   "storageLocation": "厨房台面",   "note": "",            "createdAt": "2026-05-01" },
+    { "id": "15", "categoryId": "7", "name": "大米",   "quantity": 3,  "unit": "斤", "spec": "东北长粒香",          "expiryDate": "2026-11-20", "minQuantity": 5, "price": 4,    "storageLocation": "米桶",       "note": "",            "createdAt": "2026-04-20" },
+    { "id": "16", "categoryId": "5", "name": "洗发水", "quantity": 1,  "unit": "瓶", "spec": "400ml·去屑型",        "expiryDate": "2027-06-01", "minQuantity": 1, "price": 40,   "storageLocation": "浴室",       "note": "",            "createdAt": "2026-05-18" }
+  ],
+  "categories": [
+    { "id": "1", "name": "蔬菜",   "icon": "Food",        "sort": 1 },
+    { "id": "2", "name": "肉类",   "icon": "Dish",        "sort": 2 },
+    { "id": "3", "name": "水果",   "icon": "Apple",       "sort": 3 },
+    { "id": "4", "name": "饮料",   "icon": "Mug",         "sort": 4 },
+    { "id": "5", "name": "日用品", "icon": "Box",         "sort": 5 },
+    { "id": "6", "name": "药品",   "icon": "FirstAidKit", "sort": 6 },
+    { "id": "7", "name": "其他",   "icon": "More",        "sort": 7 }
+  ],
+  "nextId": 17
+}
