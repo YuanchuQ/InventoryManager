@@ -1,0 +1,95 @@
+/**
+ * 全局样式重置 + 基础布局
+ * 桌面端布局：侧边栏 + 顶栏 + 主内容
+ */
+
+@import './variables.css';
+@import './fonts.css';
+@import './components/pixel-dialog.css';
+
+/* ===== Reset ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea,
+select,
+option,
+optgroup {
+  font-family: var(--font-family);
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-bg-white);
+  position: relative;
+}
+
+/* ===== 链接 ===== */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-light);
+}
+
+/* ===== 滚动条美化 ===== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-placeholder);
+}
+
+/* ===== 通用工具类 ===== */
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-danger { color: var(--color-danger); }
+.text-success { color: var(--color-success); }
+.text-warning { color: var(--color-warning); }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== 页面容器 ===== */
+.page-container {
+  padding: var(--content-padding-y) var(--content-padding-x);
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}

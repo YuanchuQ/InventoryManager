@@ -1,0 +1,81 @@
+/**
+ * 像素风弹窗全局样式
+ * 统一 .pixel-dialog 下的 Element Plus 对话框视觉
+ * （原分散在 views/InventoryDetail.vue 与 views/ShoppingList.vue 中）
+ */
+
+.pixel-dialog .el-dialog__header {
+  font-family: var(--font-family-pixel);
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+  border-bottom: 2px solid var(--pixel-border);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin: 0;
+}
+
+.pixel-dialog .el-dialog__body {
+  padding: var(--spacing-lg);
+}
+
+.pixel-dialog .el-dialog__footer {
+  border-top: 2px dashed var(--color-border-light);
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.pixel-dialog .el-dialog {
+  border: 3px solid var(--pixel-border);
+  box-shadow: 8px 8px 0 0 rgba(107, 93, 85, 0.35);
+  border-radius: 0;
+}
+
+.pixel-dialog .el-form-item__label {
+  font-family: var(--font-family-pixel);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-normal);
+  padding-bottom: 6px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+}
+
+.pixel-dialog .el-input__wrapper {
+  background: #FFFFFF;
+  border: 2px solid var(--pixel-border);
+  box-shadow: 3px 3px 0 0 rgba(107, 93, 85, 0.25);
+  transition: all var(--transition-fast);
+  padding: 4px 12px;
+}
+
+.pixel-dialog .el-input__wrapper:hover {
+  border-color: var(--color-primary);
+  box-shadow: 4px 4px 0 0 rgba(107, 93, 85, 0.3);
+  transform: translate(-1px, -1px);
+}
+
+.pixel-dialog .el-input__wrapper.is-focus {
+  border-color: var(--color-primary);
+  box-shadow: 4px 4px 0 0 rgba(212, 135, 90, 0.35);
+  background: #FFFDFB;
+  transform: translate(-1px, -1px);
+}
+
+.pixel-dialog .el-input__inner {
+  font-family: var(--font-family-pixel);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+}
+
+.pixel-dialog .el-textarea__inner {
+  font-family: var(--font-family-pixel);
+  color: var(--color-text-primary);
+  border: 2px solid var(--pixel-border);
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  font-smooth: never;
+}
